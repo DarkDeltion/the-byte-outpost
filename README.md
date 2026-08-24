@@ -13,9 +13,9 @@ Copyright `Vanwege dat ik product foto's van echte bedrijven gebruik moet ik de 
 
 AVG `dus als je afrekent op een webshop is privacy een groot ding. dit moet ik dus niet verzamelen en alles gaan hashen als iemand betaalt.`
 
-Begin Datum - 24-09-2026
+Begin Datum - 26-08-2026
 
-Eind Datum - 31-09-2026
+Eind Datum - 2-09-2026
 #
 ### next.js README.md
 *This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).*
