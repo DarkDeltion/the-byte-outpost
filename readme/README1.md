@@ -31,6 +31,8 @@ Eind Datum - 3-09-2026
 
 Ik wil graag next.js leren als met kijken hoe ik er een website mee kan maken. met een voledige webshop.
 
+# kerntaken/werkprocessen
+
 Welke werkprocessen er in zijn is de volgende:
 B1-k1-W1, B1-k1-W2, B1-k1-w3, 
 
