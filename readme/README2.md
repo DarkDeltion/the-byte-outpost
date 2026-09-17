@@ -23,9 +23,9 @@ de randvoorwaarden die aanwezig zijn bij de website zijn:
 
 - **maatschappelijke impact:** De website heeft geen maatschappelijke impact, maar is een online webshop.
 
-Begin Datum - 10-09-2026
+Begin Datum - 14-09-2026
 
-Eind Datum - 17-09-2026
+Eind Datum - 21-09-2026
 
 # Leerdoelen
 
@@ -38,3 +38,6 @@ B1-k1-W1, B1-k1-W2, B1-k1-w3,
 
 
 de werkprocessen die voor deze week tellen zijn: B1-k1-W1 en B1-k1-W3
+
+motivatie quote:
+"Alles wat je aandacht geeft groeit."
