@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 type CategoryCardProps = {
   products_aantal: number;
@@ -10,17 +10,33 @@ export default function CategoryItem({
   products_name,
 }: CategoryCardProps) {
   return (
-    <div id="Category-tab">
-      <div id="Category-image">
-        <Image src="/Placeholder/285x285.webp" alt="placeholder" width={285} height={285} />
+    <article className="flex min-h-[250px] flex-col bg-[#20202a] p-4">
+      <div className="relative h-[175px] overflow-hidden bg-[#111116]">
+        <Image
+          src="/Placeholder/285x285.webp"
+          alt={products_name}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          className="object-cover"
+        />
       </div>
-      <div id="Category-text">
-        <h4>{products_name}</h4>
-        <p>{products_aantal} producten</p>
+
+      <div className="flex flex-1 flex-col pt-4">
+        <h3 className="text-sm font-bold text-white">
+          {products_name}
+        </h3>
+
+        <p className="mt-1 text-xs text-gray-500">
+          {products_aantal} producten
+        </p>
+
+        <a
+          href="/producten"
+          className="mt-auto pt-4 text-xs text-[#7b87ee] hover:text-white"
+        >
+          Bekijk →
+        </a>
       </div>
-      <div id="Category-button">
-        <a href=".">Bekijk</a>
-      </div>
-    </div>
+    </article>
   );
 }
