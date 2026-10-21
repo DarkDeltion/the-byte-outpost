@@ -1,0 +1,74 @@
+[
+  {
+    "id": "iphone-15-pro",
+    "name": "iPhone 15 Pro",
+    "details": "128GB, Natural Titanium",
+    "price": 1129,
+    "category": "Telefoons",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "galaxy-tab-s9",
+    "name": "Galaxy Tab S9",
+    "details": "11 inch, 128GB Wifi",
+    "price": 799,
+    "category": "Tablets",
+    "brand": "Samsung",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "lenovo-thinkpad",
+    "name": "Lenovo ThinkPad",
+    "details": "Intel i7, 16GB, 512GB SSD",
+    "price": 1499,
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "hp-pavilion",
+    "name": "HP Pavilion",
+    "details": "Ryzen 5, 8GB, 256GB SSD",
+    "price": 699,
+    "category": "Laptops",
+    "brand": "HP",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "asus-rog-ally",
+    "name": "ASUS ROG Ally",
+    "details": "Handheld console, 512GB",
+    "price": 649,
+    "category": "Computers",
+    "brand": "ASUS",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "mac-studio-m2",
+    "name": "Mac Studio M2",
+    "details": "M2 Max, 32GB, 512GB SSD",
+    "price": 2449,
+    "category": "Computers",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "samsung-s24-ultra",
+    "name": "Samsung S24 Ultra",
+    "details": "256GB, Titanium Gray",
+    "price": 1249,
+    "category": "Telefoons",
+    "brand": "Samsung",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "lenovo-ideapad",
+    "name": "Lenovo IdeaPad",
+    "details": "15.6 inch, Intel i3, 8GB",
+    "price": 449,
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "image": "/Placeholder/285x285.webp"
+  }
+]

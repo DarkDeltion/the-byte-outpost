@@ -4,7 +4,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 
-export default function Navbar() {
+type NavbarProps = {
+  activePage?: 'home' | 'producten'
+}
+
+export default function Navbar({ activePage = 'home' }: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
@@ -68,24 +72,26 @@ export default function Navbar() {
         >
           <Link
             href="/"
-            className="
-            text-[15px] font-bold text-[#5e6ad2] underline
+            aria-current={activePage === 'home' ? 'page' : undefined}
+            className={`
+            text-[15px] ${activePage === 'home' ? 'font-bold text-[#5e6ad2] underline' : 'text-white'}
             sm:text-[15px]
             md:text-[15px]
             lg:text-[15px]
-            "
+            `}
           >
             Home
           </Link>
 
           <Link
             href="/producten"
-            className="
-            text-[15px] text-white
+            aria-current={activePage === 'producten' ? 'page' : undefined}
+            className={`
+            text-[15px] ${activePage === 'producten' ? 'font-bold text-[#5e6ad2] underline' : 'text-white'}
             sm:text-[15px]
             md:text-[15px]
             lg:text-[15px]
-            "
+            `}
           >
             Producten
           </Link>
@@ -181,12 +187,13 @@ export default function Navbar() {
             <Link
               href="/"
               onClick={() => setMenuOpen(false)}
-              className="
-              border-b border-[#1e1e28] py-3 text-[15px] font-bold text-[#5e6ad2]
+              aria-current={activePage === 'home' ? 'page' : undefined}
+              className={`
+              border-b border-[#1e1e28] py-3 text-[15px] ${activePage === 'home' ? 'font-bold text-[#5e6ad2]' : 'text-white'}
               sm:py-3
               md:py-4
               lg:py-4
-              "
+              `}
             >
               Home
             </Link>
@@ -194,12 +201,13 @@ export default function Navbar() {
             <Link
               href="/producten"
               onClick={() => setMenuOpen(false)}
-              className="
-              border-b border-[#1e1e28] py-3 text-[15px] text-white
+              aria-current={activePage === 'producten' ? 'page' : undefined}
+              className={`
+              border-b border-[#1e1e28] py-3 text-[15px] ${activePage === 'producten' ? 'font-bold text-[#5e6ad2]' : 'text-white'}
               sm:py-3
               md:py-4
               lg:py-4
-              "
+              `}
             >
               Producten
             </Link>

@@ -1,20 +1,131 @@
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
+import ProductFilters from '../../components/producten/product-filters'
+import ProductItem from '../../components/producten/product-item'
+import products from '../../data/products.json'
+
 export default function Producten() {
   return (
-    <div id="main">
-      <div id="navbar">
-        <h2>The Byte Outpost</h2>
-        <a href=".">Home</a>
-        <a href=".">Producten</a>
-        <a href=".">Over Ons</a>
-        <a href=".">Contact</a>
-        <a href=".">Winkelwagen</a>
-      </div>
-      <div id="Content">
+    <div
+      id="main"
+      className="
+      min-h-screen bg-[#121218] text-white
+      "
+    >
+      <Navbar activePage="producten" />
 
-      </div>
-      <div id="footer">
+      <main className="w-full">
+        <section
+          id="Content-Header"
+          className="
+          mx-auto w-full max-w-360 px-4 pt-6
+          sm:px-6 sm:pt-8
+          md:px-8 md:pt-10
+          lg:px-10
+          "
+        >
+          <h1
+            className="
+            text-[28px] font-extrabold
+            sm:text-[30px]
+            md:text-[32px]
+            lg:text-[32px]
+            "
+          >
+            Onze Producten
+          </h1>
+        </section>
 
-      </div>
+        <section
+          id="Content-Products"
+          className="
+          mx-auto grid w-full max-w-360 grid-cols-1 items-start gap-6 px-4 py-6
+          sm:gap-8 sm:px-6 sm:py-8
+          md:grid-cols-[220px_minmax(0,1fr)] md:gap-8 md:px-8 md:py-10
+          lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-10 lg:px-10
+          "
+        >
+          <ProductFilters />
+
+          <div className="min-w-0">
+            {/* Producten uit JSON */}
+            <div
+              id="Products"
+              className="
+              grid grid-cols-1 gap-3
+              sm:grid-cols-2 sm:gap-4
+              md:grid-cols-2 md:gap-5
+              lg:grid-cols-4 lg:gap-5
+              "
+            >
+              {products.map((product) => (
+                <ProductItem
+                  key={product.id}
+                  name={product.name}
+                  details={product.details}
+                  price={product.price}
+                  image={product.image}
+                />
+              ))}
+            </div>
+
+            {/* Paginering */}
+            <nav
+              aria-label="Paginering (voorbeeld)"
+              className="
+              mt-6 flex items-center justify-center gap-2
+              sm:mt-8
+              md:mt-10
+              lg:mt-12
+              "
+            >
+              <button
+                type="button"
+                disabled
+                aria-current="page"
+                className="
+                flex h-8 w-8 items-center justify-center bg-[#1e1e28] text-[14px] font-bold text-white
+                "
+              >
+                1
+              </button>
+
+              <button
+                type="button"
+                disabled
+                className="
+                flex h-8 w-8 items-center justify-center text-[14px] text-white/70
+                "
+              >
+                2
+              </button>
+
+              <button
+                type="button"
+                disabled
+                className="
+                flex h-8 w-8 items-center justify-center text-[14px] text-white/70
+                "
+              >
+                3
+              </button>
+
+              <button
+                type="button"
+                disabled
+                className="
+                px-3 py-2 text-[14px] text-[#a1a5ff]
+                "
+              >
+                Volgende
+              </button>
+            </nav>
+          </div>
+        </section>
+      </main>
+
+      {/* Footer */}
+      <Footer />
     </div>
-  );
+  )
 }
