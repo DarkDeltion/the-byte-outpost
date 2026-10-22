@@ -48,7 +48,6 @@ export default function Producten() {
           <ProductFilters />
 
           <div className="min-w-0">
-            {/* Producten uit JSON */}
             <div
               id="Products"
               className="
@@ -68,63 +67,9 @@ export default function Producten() {
                 />
               ))}
             </div>
-
-            {/* Paginering */}
-            <nav
-              aria-label="Paginering (voorbeeld)"
-              className="
-              mt-6 flex items-center justify-center gap-2
-              sm:mt-8
-              md:mt-10
-              lg:mt-12
-              "
-            >
-              <button
-                type="button"
-                disabled
-                aria-current="page"
-                className="
-                flex h-8 w-8 items-center justify-center bg-[#1e1e28] text-[14px] font-bold text-white
-                "
-              >
-                1
-              </button>
-
-              <button
-                type="button"
-                disabled
-                className="
-                flex h-8 w-8 items-center justify-center text-[14px] text-white/70
-                "
-              >
-                2
-              </button>
-
-              <button
-                type="button"
-                disabled
-                className="
-                flex h-8 w-8 items-center justify-center text-[14px] text-white/70
-                "
-              >
-                3
-              </button>
-
-              <button
-                type="button"
-                disabled
-                className="
-                px-3 py-2 text-[14px] text-[#a1a5ff]
-                "
-              >
-                Volgende
-              </button>
-            </nav>
           </div>
         </section>
       </main>
-
-      {/* Footer */}
       <Footer />
     </div>
   )

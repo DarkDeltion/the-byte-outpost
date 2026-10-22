@@ -83,11 +83,10 @@ export default function ProductItem({
         </p>
       </div>
 
-      {/* De winkelwagen wordt later aangesloten. */}
       <button
         type="button"
         disabled
-        aria-label={`${name} in winkelwagen (binnenkort beschikbaar)`}
+        aria-label={`${name} in winkelwagen`}
         className="
         mt-auto flex w-full items-center justify-center bg-[#5e6ad2] px-2 py-3 text-[14px] font-bold text-white
         sm:py-3
