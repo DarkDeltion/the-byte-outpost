@@ -12,6 +12,7 @@ export default function ProductCatalog({ products }: { products: Product[] }) {
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [selectedBrands, setSelectedBrands] = useState<string[]>([])
   const [filtersOpen, setFiltersOpen] = useState(false)
+  const [page, setPage] = useState(1)
   const dialogRef = useRef<HTMLDialogElement>(null)
 
   useEffect(() => {
@@ -58,6 +59,7 @@ export default function ProductCatalog({ products }: { products: Product[] }) {
     setSelectedCategories([])
     setSelectedBrands([])
     setPriceRange([0, maxPrice])
+    setPage(1)
   }
 
   const filterProps = {
@@ -65,11 +67,20 @@ export default function ProductCatalog({ products }: { products: Product[] }) {
     brands,
     selectedCategories,
     selectedBrands,
-    onCategoriesChange: setSelectedCategories,
-    onBrandsChange: setSelectedBrands,
+    onCategoriesChange: (categories: string[]) => {
+      setSelectedCategories(categories)
+      setPage(1)
+    },
+    onBrandsChange: (brands: string[]) => {
+      setSelectedBrands(brands)
+      setPage(1)
+    },
     maxPrice,
     priceRange,
-    onPriceChange: setPriceRange,
+    onPriceChange: (range: PriceRange) => {
+      setPriceRange(range)
+      setPage(1)
+    },
     hasActiveFilters,
     onReset: resetFilters,
   }
@@ -84,6 +95,8 @@ export default function ProductCatalog({ products }: { products: Product[] }) {
         onOpenFilters={() => setFiltersOpen(true)}
         filtersOpen={filtersOpen}
         activeFilterCount={activeFilterCount}
+        page={page}
+        onPageChange={setPage}
       />
       <dialog
         ref={dialogRef}

@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useRef, useState, useSyncExternalStore } from 'react'
 import ProductItem from './product-item'
+import ProductPagination from './product-pagination'
 import ProductSort, { type ProductSortOrder } from './product-sort'
 import type { Product } from './product-types'
 
@@ -10,10 +11,23 @@ type ProductListProps = {
   onOpenFilters: () => void
   filtersOpen: boolean
   activeFilterCount: number
+  page: number
+  onPageChange: (page: number) => void
 }
 
-export default function ProductList({ products, onOpenFilters, filtersOpen, activeFilterCount }: ProductListProps) {
+function subscribeToPageSize(onChange: () => void) {
+  const desktop = window.matchMedia('(min-width: 768px)')
+  desktop.addEventListener('change', onChange)
+  return () => desktop.removeEventListener('change', onChange)
+}
+
+const getPageSize = () => window.matchMedia('(min-width: 768px)').matches ? 8 : 6
+const getServerPageSize = () => 6
+
+export default function ProductList({ products, onOpenFilters, filtersOpen, activeFilterCount, page, onPageChange }: ProductListProps) {
   const [sortOrder, setSortOrder] = useState<ProductSortOrder>('popular')
+  const pageSize = useSyncExternalStore(subscribeToPageSize, getPageSize, getServerPageSize)
+  const listRef = useRef<HTMLDivElement>(null)
   const sortedProducts = [...products]
 
   switch (sortOrder) {
@@ -34,8 +48,21 @@ export default function ProductList({ products, onOpenFilters, filtersOpen, acti
       break
   }
 
+  const pageCount = Math.ceil(sortedProducts.length / pageSize)
+  const currentPage = Math.max(1, Math.min(page, pageCount))
+  const startIndex = (currentPage - 1) * pageSize
+  const pageProducts = sortedProducts.slice(startIndex, startIndex + pageSize)
+
+  function changePage(nextPage: number) {
+    onPageChange(nextPage)
+    listRef.current?.scrollIntoView({
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+      block: 'start',
+    })
+  }
+
   return (
-    <div className="min-w-0">
+    <div ref={listRef} className="min-w-0 scroll-mt-4">
       <div className="mb-4 flex items-center gap-2 md:mb-6 md:justify-end">
         <button
           type="button"
@@ -55,11 +82,16 @@ export default function ProductList({ products, onOpenFilters, filtersOpen, acti
             </span>
           )}
         </button>
-        <ProductSort value={sortOrder} onChange={setSortOrder} />
+        <ProductSort value={sortOrder} onChange={(value) => {
+          setSortOrder(value)
+          onPageChange(1)
+        }} />
       </div>
 
-      <p role="status" className="sr-only">
-        {sortedProducts.length} producten gevonden
+      <p role="status" className="mb-3 text-[12px] text-white/60">
+        {sortedProducts.length > 0
+          ? `${startIndex + 1}–${startIndex + pageProducts.length} van ${sortedProducts.length} producten`
+          : '0 producten gevonden'}
       </p>
 
       {sortedProducts.length === 0 && (
@@ -77,7 +109,7 @@ export default function ProductList({ products, onOpenFilters, filtersOpen, acti
         lg:grid-cols-4 lg:gap-5
         "
       >
-        {sortedProducts.map((product) => (
+        {pageProducts.map((product) => (
           <ProductItem
             key={product.id}
             name={product.name}
@@ -87,6 +119,8 @@ export default function ProductList({ products, onOpenFilters, filtersOpen, acti
           />
         ))}
       </div>
+
+      <ProductPagination page={currentPage} pageCount={pageCount} onPageChange={changePage} />
     </div>
   )
 }
