@@ -7,9 +7,12 @@ import type { Product } from './product-types'
 
 type ProductListProps = {
   products: Product[]
+  onOpenFilters: () => void
+  filtersOpen: boolean
+  activeFilterCount: number
 }
 
-export default function ProductList({ products }: ProductListProps) {
+export default function ProductList({ products, onOpenFilters, filtersOpen, activeFilterCount }: ProductListProps) {
   const [sortOrder, setSortOrder] = useState<ProductSortOrder>('popular')
   const sortedProducts = [...products]
 
@@ -33,7 +36,27 @@ export default function ProductList({ products }: ProductListProps) {
 
   return (
     <div className="min-w-0">
-      <ProductSort value={sortOrder} onChange={setSortOrder} />
+      <div className="mb-4 flex items-center gap-2 md:mb-6 md:justify-end">
+        <button
+          type="button"
+          onClick={onOpenFilters}
+          aria-haspopup="dialog"
+          aria-controls="mobile-filters-dialog"
+          aria-expanded={filtersOpen}
+          className="flex h-11 shrink-0 items-center justify-center gap-2 rounded-lg border border-white/20 bg-[#1e1e28] px-3 text-[13px] font-bold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5e6ad2] md:hidden"
+        >
+          <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
+            <path d="M3 5h14M3 10h14M3 15h14M7 3v4m6 1v4m-6 1v4" />
+          </svg>
+          Filters
+          {activeFilterCount > 0 && (
+            <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-[#5e6ad2] px-1 text-[11px]">
+              <span className="sr-only">Actief: </span>{activeFilterCount}
+            </span>
+          )}
+        </button>
+        <ProductSort value={sortOrder} onChange={setSortOrder} />
+      </div>
 
       <p role="status" className="sr-only">
         {sortedProducts.length} producten gevonden

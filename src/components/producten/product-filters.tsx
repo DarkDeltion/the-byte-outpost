@@ -13,11 +13,13 @@ type ProductFiltersProps = {
   onPriceChange: (range: PriceRangeValue) => void
   hasActiveFilters: boolean
   onReset: () => void
+  idPrefix?: string
+  onClose?: () => void
 }
 
 function FilterGroup({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <details open className="group min-w-0 self-start border-b border-white/10 pb-5">
+    <details className="group w-full min-w-0 border-b border-white/10 pb-5">
       <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-[14px] font-bold text-white/80 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#5e6ad2] [&::-webkit-details-marker]:hidden">
         {title}
         <svg
@@ -80,23 +82,39 @@ export default function ProductFilters({
   onPriceChange,
   hasActiveFilters,
   onReset,
+  idPrefix = 'Filters',
+  onClose,
 }: ProductFiltersProps) {
   return (
-    <aside id="Filters" aria-labelledby="filters-heading" className="flex flex-col gap-5 sm:gap-6">
+    <aside id={idPrefix} aria-labelledby={`${idPrefix}-heading`} className="flex flex-col gap-5 sm:gap-6">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <h2 id="filters-heading" className="text-[18px] font-extrabold">Filters</h2>
-        {hasActiveFilters && (
-          <button
-            type="button"
-            onClick={onReset}
-            className="text-[12px] text-white/70 underline underline-offset-4 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#5e6ad2]"
-          >
-            Wis filters
-          </button>
-        )}
+        <h2 id={`${idPrefix}-heading`} className="text-[18px] font-extrabold">Filters</h2>
+        <div className="flex items-center gap-3">
+          {hasActiveFilters && (
+            <button
+              type="button"
+              onClick={onReset}
+              className="text-[12px] text-white/70 underline underline-offset-4 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#5e6ad2]"
+            >
+              Wis filters
+            </button>
+          )}
+          {onClose && (
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label="Filters sluiten"
+              className="flex h-11 w-11 items-center justify-center rounded-lg bg-white/5 hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-[#5e6ad2]"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-5 w-5">
+                <path d="m6 6 12 12M18 6 6 18" />
+              </svg>
+            </button>
+          )}
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 items-start gap-6 sm:grid-cols-3 md:grid-cols-1">
+      <div className="flex flex-col gap-6">
         <FilterGroup title="Categorie">
           <CheckboxOptions
             title="Categorie"
@@ -107,7 +125,7 @@ export default function ProductFilters({
         </FilterGroup>
 
         <FilterGroup title="Prijs">
-          <PriceRange maxPrice={maxPrice} value={priceRange} onChange={onPriceChange} />
+          <PriceRange idPrefix={`${idPrefix}-price`} maxPrice={maxPrice} value={priceRange} onChange={onPriceChange} />
         </FilterGroup>
 
         <FilterGroup title="Merk">

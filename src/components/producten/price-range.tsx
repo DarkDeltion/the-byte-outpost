@@ -6,11 +6,12 @@ type PriceRangeProps = {
   maxPrice: number
   value: PriceRange
   onChange: (value: PriceRange) => void
+  idPrefix?: string
 }
 
 const formatPrice = (value: number) => `€${value.toLocaleString('nl-NL')}`
 
-export default function PriceRange({ maxPrice, value, onChange }: PriceRangeProps) {
+export default function PriceRange({ maxPrice, value, onChange, idPrefix = 'price' }: PriceRangeProps) {
   const [min, max] = value
   const start = maxPrice > 0 ? (min / maxPrice) * 100 : 0
   const end = maxPrice > 0 ? (max / maxPrice) * 100 : 0
@@ -20,8 +21,8 @@ export default function PriceRange({ maxPrice, value, onChange }: PriceRangeProp
       <legend className="sr-only">Prijsbereik</legend>
 
       <div className="flex justify-between gap-2 text-[14px] text-white/80">
-        <span>Van <output htmlFor="price-min">{formatPrice(min)}</output></span>
-        <span>Tot <output htmlFor="price-max">{formatPrice(max)}</output></span>
+        <span>Van <output htmlFor={`${idPrefix}-min`}>{formatPrice(min)}</output></span>
+        <span>Tot <output htmlFor={`${idPrefix}-max`}>{formatPrice(max)}</output></span>
       </div>
 
       <div className="relative h-11">
@@ -33,7 +34,7 @@ export default function PriceRange({ maxPrice, value, onChange }: PriceRangeProp
         </div>
 
         <input
-          id="price-min"
+          id={`${idPrefix}-min`}
           type="range"
           min={0}
           max={maxPrice}
@@ -49,7 +50,7 @@ export default function PriceRange({ maxPrice, value, onChange }: PriceRangeProp
           style={{ zIndex: min === maxPrice ? 2 : 0 }}
         />
         <input
-          id="price-max"
+          id={`${idPrefix}-max`}
           type="range"
           min={0}
           max={maxPrice}
