@@ -70,5 +70,293 @@
     "category": "Laptops",
     "brand": "Lenovo",
     "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "iphone-15",
+    "name": "iPhone 15",
+    "details": "128GB, Blue",
+    "price": 849,
+    "category": "Telefoons",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "iphone-14",
+    "name": "iPhone 14",
+    "details": "128GB, Midnight",
+    "price": 699,
+    "category": "Telefoons",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "samsung-galaxy-s24",
+    "name": "Samsung Galaxy S24",
+    "details": "128GB, Onyx Black",
+    "price": 799,
+    "category": "Telefoons",
+    "brand": "Samsung",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "samsung-galaxy-a55",
+    "name": "Samsung Galaxy A55",
+    "details": "128GB, Awesome Navy",
+    "price": 399,
+    "category": "Telefoons",
+    "brand": "Samsung",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "google-pixel-8",
+    "name": "Google Pixel 8",
+    "details": "128GB, Obsidian",
+    "price": 599,
+    "category": "Telefoons",
+    "brand": "Google",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "oneplus-12",
+    "name": "OnePlus 12",
+    "details": "256GB, Silky Black",
+    "price": 899,
+    "category": "Telefoons",
+    "brand": "OnePlus",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "xiaomi-14",
+    "name": "Xiaomi 14",
+    "details": "256GB, Black",
+    "price": 849,
+    "category": "Telefoons",
+    "brand": "Xiaomi",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "nothing-phone-2a",
+    "name": "Nothing Phone (2a)",
+    "details": "128GB, Black",
+    "price": 329,
+    "category": "Telefoons",
+    "brand": "Nothing",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "ipad-air-m2",
+    "name": "iPad Air M2",
+    "details": "11 inch, 128GB Wifi",
+    "price": 719,
+    "category": "Tablets",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "ipad-pro-m4",
+    "name": "iPad Pro M4",
+    "details": "13 inch, 256GB Wifi",
+    "price": 1569,
+    "category": "Tablets",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "ipad-mini-6",
+    "name": "iPad mini 6",
+    "details": "8.3 inch, 64GB Wifi",
+    "price": 549,
+    "category": "Tablets",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "galaxy-tab-s9-fe",
+    "name": "Galaxy Tab S9 FE",
+    "details": "10.9 inch, 128GB Wifi",
+    "price": 449,
+    "category": "Tablets",
+    "brand": "Samsung",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "galaxy-tab-a9-plus",
+    "name": "Galaxy Tab A9+",
+    "details": "11 inch, 64GB Wifi",
+    "price": 219,
+    "category": "Tablets",
+    "brand": "Samsung",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "lenovo-tab-p12",
+    "name": "Lenovo Tab P12",
+    "details": "12.7 inch, 128GB Wifi",
+    "price": 349,
+    "category": "Tablets",
+    "brand": "Lenovo",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "xiaomi-pad-6",
+    "name": "Xiaomi Pad 6",
+    "details": "11 inch, 128GB Wifi",
+    "price": 299,
+    "category": "Tablets",
+    "brand": "Xiaomi",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "oneplus-pad",
+    "name": "OnePlus Pad",
+    "details": "11.61 inch, 128GB Wifi",
+    "price": 479,
+    "category": "Tablets",
+    "brand": "OnePlus",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "macbook-air-m3",
+    "name": "MacBook Air M3",
+    "details": "13.6 inch, 16GB, 256GB SSD",
+    "price": 1299,
+    "category": "Laptops",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "macbook-pro-m3",
+    "name": "MacBook Pro M3",
+    "details": "14.2 inch, 16GB, 512GB SSD",
+    "price": 1999,
+    "category": "Laptops",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "dell-xps-13",
+    "name": "Dell XPS 13",
+    "details": "Intel Core Ultra 7, 16GB, 512GB SSD",
+    "price": 1599,
+    "category": "Laptops",
+    "brand": "Dell",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "asus-zenbook-14",
+    "name": "ASUS Zenbook 14",
+    "details": "Intel Core Ultra 5, 16GB, 512GB SSD",
+    "price": 999,
+    "category": "Laptops",
+    "brand": "ASUS",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "acer-aspire-5",
+    "name": "Acer Aspire 5",
+    "details": "Intel i5, 16GB, 512GB SSD",
+    "price": 649,
+    "category": "Laptops",
+    "brand": "Acer",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "hp-envy-x360",
+    "name": "HP Envy x360",
+    "details": "Ryzen 7, 16GB, 1TB SSD",
+    "price": 1099,
+    "category": "Laptops",
+    "brand": "HP",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "lenovo-legion-5",
+    "name": "Lenovo Legion 5",
+    "details": "Intel i7, 16GB, RTX 4060, 1TB SSD",
+    "price": 1399,
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "msi-katana-15",
+    "name": "MSI Katana 15",
+    "details": "Intel i7, 16GB, RTX 4050, 512GB SSD",
+    "price": 1049,
+    "category": "Laptops",
+    "brand": "MSI",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "mac-mini-m2",
+    "name": "Mac mini M2",
+    "details": "M2, 8GB, 256GB SSD",
+    "price": 699,
+    "category": "Computers",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "imac-m3",
+    "name": "iMac M3",
+    "details": "24 inch, 16GB, 256GB SSD",
+    "price": 1799,
+    "category": "Computers",
+    "brand": "Apple",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "hp-omen-25l",
+    "name": "HP OMEN 25L",
+    "details": "Intel i7, 16GB, RTX 4060, 1TB SSD",
+    "price": 1299,
+    "category": "Computers",
+    "brand": "HP",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "lenovo-legion-t5",
+    "name": "Lenovo Legion T5",
+    "details": "Ryzen 7, 32GB, RTX 4070, 1TB SSD",
+    "price": 1699,
+    "category": "Computers",
+    "brand": "Lenovo",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "acer-nitro-n50",
+    "name": "Acer Nitro N50",
+    "details": "Intel i5, 16GB, RTX 4060, 512GB SSD",
+    "price": 999,
+    "category": "Computers",
+    "brand": "Acer",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "msi-codex-r",
+    "name": "MSI Codex R",
+    "details": "Intel i5, 16GB, RTX 4060, 1TB SSD",
+    "price": 1149,
+    "category": "Computers",
+    "brand": "MSI",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "dell-optiplex-7010",
+    "name": "Dell OptiPlex 7010",
+    "details": "Intel i5, 16GB, 512GB SSD",
+    "price": 749,
+    "category": "Computers",
+    "brand": "Dell",
+    "image": "/Placeholder/285x285.webp"
+  },
+  {
+    "id": "asus-expertcenter-d5",
+    "name": "ASUS ExpertCenter D5",
+    "details": "Intel i5, 8GB, 512GB SSD",
+    "price": 599,
+    "category": "Computers",
+    "brand": "ASUS",
+    "image": "/Placeholder/285x285.webp"
   }
 ]

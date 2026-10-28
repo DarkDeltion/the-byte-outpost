@@ -1,7 +1,7 @@
 import Navbar from '../../components/navbar'
 import Footer from '../../components/footer'
 import ProductFilters from '../../components/producten/product-filters'
-import ProductItem from '../../components/producten/product-item'
+import ProductList from '../../components/producten/product-list'
 import products from '../../data/products.json'
 
 export default function Producten() {
@@ -47,27 +47,7 @@ export default function Producten() {
         >
           <ProductFilters />
 
-          <div className="min-w-0">
-            <div
-              id="Products"
-              className="
-              grid grid-cols-1 gap-3
-              sm:grid-cols-2 sm:gap-4
-              md:grid-cols-2 md:gap-5
-              lg:grid-cols-4 lg:gap-5
-              "
-            >
-              {products.map((product) => (
-                <ProductItem
-                  key={product.id}
-                  name={product.name}
-                  details={product.details}
-                  price={product.price}
-                  image={product.image}
-                />
-              ))}
-            </div>
-          </div>
+          <ProductList products={products} />
         </section>
       </main>
       <Footer />
