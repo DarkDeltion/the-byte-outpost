@@ -1,7 +1,6 @@
 import Navbar from '../../components/navbar'
 import Footer from '../../components/footer'
-import ProductFilters from '../../components/producten/product-filters'
-import ProductList from '../../components/producten/product-list'
+import ProductCatalog from '../../components/producten/product-catalog'
 import products from '../../data/products.json'
 
 export default function Producten() {
@@ -45,9 +44,7 @@ export default function Producten() {
           lg:grid-cols-[280px_minmax(0,1fr)] lg:gap-10 lg:px-10
           "
         >
-          <ProductFilters />
-
-          <ProductList products={products} />
+          <ProductCatalog products={products} />
         </section>
       </main>
       <Footer />

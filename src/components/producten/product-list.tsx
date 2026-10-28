@@ -3,14 +3,7 @@
 import { useState } from 'react'
 import ProductItem from './product-item'
 import ProductSort, { type ProductSortOrder } from './product-sort'
-
-type Product = {
-  id: string
-  name: string
-  details: string
-  price: number
-  image: string
-}
+import type { Product } from './product-types'
 
 type ProductListProps = {
   products: Product[]
@@ -41,6 +34,16 @@ export default function ProductList({ products }: ProductListProps) {
   return (
     <div className="min-w-0">
       <ProductSort value={sortOrder} onChange={setSortOrder} />
+
+      <p role="status" className="sr-only">
+        {sortedProducts.length} producten gevonden
+      </p>
+
+      {sortedProducts.length === 0 && (
+        <p className="bg-[#1e1e28] p-6 text-[14px] text-white/80">
+          Geen producten gevonden. Pas je filters of prijsbereik aan.
+        </p>
+      )}
 
       <div
         id="Products"
