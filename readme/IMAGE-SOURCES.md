@@ -75,3 +75,14 @@ Productfoto's blijven eigendom van de betreffende merken en bronhouders.
 | `products/msi-codex-r.webp` | [msi-codex-r](https://www.newegg.com/msi-gaming-desktop-geforce-rtx-4060-intel-core-i5-13400f-16gb-ddr5-1tb-pcie-ssd-codex-r-13nuc5-080us-black/p/N82E16883151498) |
 | `products/dell-optiplex-7010.webp` | [dell-optiplex-7010](https://mediamart.vn/may-tinh-de-ban/pc-dell-optiplex-7010-tower-71038111-i5-13500-8gb-512gb-ssd-win11-wifi-ac-1yw) |
 | `products/asus-expertcenter-d5.webp` | [asus-expertcenter-d5](https://www.asus.com/lk/displays-desktops/tower-pcs/expertcenter/asus-expertcenter-d5-tower-d500tc/) |
+
+## Homepage
+
+De categoriekaarten en uitgelichte MacBook Air M3, Samsung Galaxy S24 en iPad Pro M4 gebruiken dezelfde passende productfoto's als de catalogus.
+
+| Lokaal bestand | Bron en gebruik |
+| --- | --- |
+| `home/electronics.webp` | [Unsplash](https://images.unsplash.com/photo-1496181133206-80ce9b88a853), laptop op een bureau voor de introductie. |
+| `products/gaming-pc-elite.webp` | [Gaming-pc met Intel Core i9, RTX 4080 en 32GB RAM](https://www.kabum.com.br/produto/527968/pc-gamer-tech-power-intel-core-i9-14900kf-32gb-ddr5-rtx-4080-16gb-ssd-2tb-m2-nvme-placa-mae-z790-p-fonte-850w-water-cooler-240mm), voor de generieke Gaming PC Elite. |
+
+Voor de introductiefoto geldt de Unsplash-licentie. Alle nieuwe productfoto's passen binnen hun kaart zonder dat het apparaat wordt afgesneden.

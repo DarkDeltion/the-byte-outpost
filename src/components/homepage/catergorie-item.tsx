@@ -4,11 +4,13 @@ import Link from 'next/link'
 type CategoryCardProps = {
   products_aantal: number
   products_name: string
+  products_image: string
 }
 
 export default function CategoryItem({
   products_aantal,
   products_name,
+  products_image,
 }: CategoryCardProps) {
   return (
     <article
@@ -21,18 +23,18 @@ export default function CategoryItem({
     >
       <div
         className="
-        relative h-30 w-full overflow-hidden bg-[#121218]
+        relative h-30 w-full overflow-hidden bg-white
         sm:h-40
         md:h-52
         lg:h-71.25
         "
       >
         <Image
-          src="/Placeholder/285x285.webp"
+          src={products_image}
           alt={products_name}
           fill
           sizes="(max-width: 767px) 50vw, 25vw"
-          className="object-cover"
+          className="object-contain p-4"
         />
       </div>
 

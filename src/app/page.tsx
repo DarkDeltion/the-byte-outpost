@@ -82,8 +82,8 @@ export default function Home() {
             "
           >
             <Image
-              src="/Placeholder/600x340.webp"
-              alt="Elektronica"
+              src="/images/home/electronics.webp"
+              alt="Laptop op een bureau"
               fill
               priority
               sizes="(max-width: 767px) 100vw, 600px"
@@ -125,21 +125,25 @@ export default function Home() {
             <CategoryItem
               products_aantal={120}
               products_name="Telefoons"
+              products_image="/images/products/samsung-galaxy-s24.webp"
             />
 
             <CategoryItem
               products_aantal={85}
               products_name="Tablets"
+              products_image="/images/products/galaxy-tab-s9.webp"
             />
 
             <CategoryItem
               products_aantal={150}
               products_name="Laptops"
+              products_image="/images/products/macbook-air-m3.webp"
             />
 
             <CategoryItem
               products_aantal={95}
               products_name="Computers"
+              products_image="/images/products/hp-omen-25l.webp"
             />
           </div>
         </section>
@@ -178,24 +182,28 @@ export default function Home() {
               products_name="MacBook Air M3"
               product_details="13.6 inch Retina · 8GB · 256GB SSD"
               product_price="€1.299"
+              product_image="/images/products/macbook-air-m3.webp"
             />
 
             <UitgelichtItem
               products_name="Samsung Galaxy S24"
               product_details="6.2 inch AMOLED · 128GB"
               product_price="€899"
+              product_image="/images/products/samsung-galaxy-s24.webp"
             />
 
             <UitgelichtItem
               products_name='iPad Pro 13"'
               product_details="Apple M4 chip · Ultra Retina XDR"
               product_price="€1.199"
+              product_image="/images/products/ipad-pro-m4.webp"
             />
 
             <UitgelichtItem
               products_name="Gaming PC Elite"
               product_details="RTX 4080 · Intel i9 · 32GB RAM"
               product_price="€2.499"
+              product_image="/images/products/gaming-pc-elite.webp"
             />
           </div>
         </section>

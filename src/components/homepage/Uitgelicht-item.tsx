@@ -5,12 +5,14 @@ type FeaturedProductProps = {
   products_name: string
   product_details: string
   product_price: string
+  product_image: string
 }
 
 export default function UitgelichtItem({
   products_name,
   product_details,
   product_price,
+  product_image,
 }: FeaturedProductProps) {
   return (
     <article
@@ -23,18 +25,18 @@ export default function UitgelichtItem({
     >
       <div
         className="
-        relative h-40 w-full overflow-hidden bg-[#121218]
+        relative h-40 w-full overflow-hidden bg-white
         sm:h-44
         md:h-48
         lg:h-50
         "
       >
         <Image
-          src="/Placeholder/285x200.webp"
+          src={product_image}
           alt={products_name}
           fill
           sizes="(max-width: 767px) 100vw, 25vw"
-          className="object-cover"
+          className="object-contain p-4"
         />
       </div>
 
