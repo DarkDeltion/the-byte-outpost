@@ -1,6 +1,14 @@
 import Link from 'next/link'
 
-export default function Footer() {
+type FooterProps = {
+  email?: string
+  copyrightName?: string
+}
+
+export default function Footer({
+  email = 'info@thebyteoutpost.nl',
+  copyrightName = 'The Byte Outpost',
+}: FooterProps) {
   return (
     <footer
       id="footer"
@@ -148,7 +156,7 @@ export default function Footer() {
           lg:text-[13px]
           "
         >
-          E-mail: info@thebyteoutpost.nl
+          E-mail: {email}
         </p>
 
         <p
@@ -179,7 +187,7 @@ export default function Footer() {
           lg:text-left
           "
         >
-          © 2024 The Byte Outpost | Alle rechten voorbehouden.
+          © 2024 {copyrightName} | Alle rechten voorbehouden.
         </p>
       </div>
     </footer>

@@ -15,7 +15,12 @@ export default function OverOns() {
       ${inter.className} min-h-screen bg-[#121218] leading-[normal] text-white
       `}
     >
-      <Navbar />
+      <Navbar
+        activePage="over-ons"
+        brandName="the byte outpost"
+        logoSrc={null}
+        cartIcon="/over-ons/shopping-cart.svg"
+      />
 
       <main id="Content" className="w-full">
         {/* Header */}
@@ -131,7 +136,7 @@ export default function OverOns() {
         </section>
       </main>
 
-      <Footer />
+      <Footer email="info@byteoutpost.nl" copyrightName="the byte outpost" />
     </div>
   )
 }

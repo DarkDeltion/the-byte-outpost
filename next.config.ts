@@ -2,7 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   rewrites() {
-    return [{ source: '/producten', destination: '/Producten' }];
+    return [
+      { source: '/producten', destination: '/Producten' },
+      { source: '/over-ons', destination: '/OverOns' },
+    ];
   },
 };
 

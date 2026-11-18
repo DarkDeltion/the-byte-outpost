@@ -5,10 +5,18 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 type NavbarProps = {
-  activePage?: 'home' | 'producten'
+  activePage?: 'home' | 'producten' | 'over-ons'
+  brandName?: string
+  logoSrc?: string | null
+  cartIcon?: string
 }
 
-export default function Navbar({ activePage = 'home' }: NavbarProps) {
+export default function Navbar({
+  activePage = 'home',
+  brandName = 'The Byte Outpost',
+  logoSrc = '/Placeholder/24x24.webp',
+  cartIcon = '/Placeholder/24x24.webp',
+}: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
@@ -36,18 +44,22 @@ export default function Navbar({ activePage = 'home' }: NavbarProps) {
           lg:flex
           "
         >
-          <Image
-            src="/Placeholder/24x24.webp"
-            alt="The Byte Outpost logo"
-            width={24}
-            height={24}
-            className="
-            mr-2 h-5 w-5
-            sm:h-5 sm:w-5
-            md:h-6 md:w-6
-            lg:h-6 lg:w-6
-            "
-          />
+          {logoSrc ? (
+            <Image
+              src={logoSrc}
+              alt="The Byte Outpost logo"
+              width={24}
+              height={24}
+              className="
+              mr-2 h-5 w-5
+              sm:h-5 sm:w-5
+              md:h-6 md:w-6
+              lg:h-6 lg:w-6
+              "
+            />
+          ) : (
+            <span aria-hidden="true" className="mr-2 h-6 w-6 shrink-0 bg-[#5e6ad2]" />
+          )}
 
           <h2
             className="
@@ -57,7 +69,7 @@ export default function Navbar({ activePage = 'home' }: NavbarProps) {
             lg:text-[20px]
             "
           >
-            The Byte Outpost
+            {brandName}
           </h2>
         </Link>
 
@@ -98,12 +110,13 @@ export default function Navbar({ activePage = 'home' }: NavbarProps) {
 
           <Link
             href="/over-ons"
-            className="
-            text-[15px] text-white
+            aria-current={activePage === 'over-ons' ? 'page' : undefined}
+            className={`
+            text-[15px] ${activePage === 'over-ons' ? 'font-bold text-[#5e6ad2] underline' : 'text-white'}
             sm:text-[15px]
             md:text-[15px]
             lg:text-[15px]
-            "
+            `}
           >
             Over Ons
           </Link>
@@ -132,7 +145,7 @@ export default function Navbar({ activePage = 'home' }: NavbarProps) {
           "
         >
           <Image
-            src="/Placeholder/24x24.webp"
+            src={cartIcon}
             alt="Winkelwagen"
             width={18}
             height={18}
@@ -215,12 +228,13 @@ export default function Navbar({ activePage = 'home' }: NavbarProps) {
             <Link
               href="/over-ons"
               onClick={() => setMenuOpen(false)}
-              className="
-              border-b border-[#1e1e28] py-3 text-[15px] text-white
+              aria-current={activePage === 'over-ons' ? 'page' : undefined}
+              className={`
+              border-b border-[#1e1e28] py-3 text-[15px] ${activePage === 'over-ons' ? 'font-bold text-[#5e6ad2]' : 'text-white'}
               sm:py-3
               md:py-4
               lg:py-4
-              "
+              `}
             >
               Over Ons
             </Link>
@@ -249,7 +263,7 @@ export default function Navbar({ activePage = 'home' }: NavbarProps) {
               "
             >
               <Image
-                src="/Placeholder/24x24.webp"
+                src={cartIcon}
                 alt="Winkelwagen"
                 width={18}
                 height={18}
