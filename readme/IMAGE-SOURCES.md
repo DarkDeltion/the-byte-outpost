@@ -49,3 +49,29 @@ Productfoto's blijven eigendom van de betreffende merken en bronhouders.
 | `products/lenovo-tab-p12.webp` | [lenovo-tab-p12](https://www.lenovo.com/be/nl/p/tablets/lenovo-tab-series/lenovo-tab-p12/zach0204se) |
 | `products/xiaomi-pad-6.webp` | [xiaomi-pad-6](https://www.tiendaamiga.com.bo/default/tablet-xiaomi-pad-6-6-128gb-11plg-wifi-gris-grfito) |
 | `products/oneplus-pad.webp` | [oneplus-pad](https://jo-cell.com/products/oneplus-pad-12gb-256gb-green?srsltid=AfmBOorNtgsyhjkXc4Na1yfCaKUyOUBouN9-LQ4PQYhpDdL9IAvSNyws) |
+
+### Laptops en computers
+
+| Lokaal bestand | Bron en model |
+| --- | --- |
+| `products/lenovo-thinkpad.webp` | [lenovo-thinkpad](https://www.lenovo.com/au/outlet/en/p/laptops/thinkpad/thinkpadt/22tpt14t4n1/22tpt14t4n1?srsltid=AfmBOooGXeufsw8Gq5sep1mBYWIPMSgTNcHw--Gywx-zqT7lBDLjMU6O) |
+| `products/hp-pavilion.webp` | [hp-pavilion](https://fado.vn/uk/amazon/hp-pavilion-laptop-pc-15-eh1024sa-amd-ryzen-5-5500h-processor-8gb-ram-512gb-ssd-amd-radeon-gpu-156-inch-full-hd-169-touchscreen-display-windows-11-home-natural-silver-B0C6KWM7TG.html) |
+| `products/asus-rog-ally.webp` | [asus-rog-ally](https://mdp.co.id/product/rog-ally-rc71lr2rada6w-90nv0gy1m00130-amd-ryzen-z1-xtereme-16gbddr5512gb-g4-pcieradeon-rdna37fhd-touch-120hzwin-11-2y-global-warranty-143702) |
+| `products/mac-studio-m2.webp` | [mac-studio-m2](https://macsg.vn/mac-studio-2023-m2-max-12u-30gpu-32gb-512gb-fullbox-p39092702.html?srsltid=AfmBOopl8bDUxUh5tpK8WYDOZtkFl7PErjIQAaHmoCgGkvK-cKYfB4nX) |
+| `products/lenovo-ideapad.webp` | [lenovo-ideapad](https://www.sulpak.kz/g/noutbuki_lenovo_ideapad_3_15iau7_i385suw1_82rk00ewrk) |
+| `products/macbook-air-m3.webp` | [macbook-air-m3](https://www.bestbuy.com/site/reviews/apple-macbook-air-13-inch-laptop-m3-chip-built-for-apple-intelligence-16gb-memory-512gb-ssd-midnight/11821398) |
+| `products/macbook-pro-m3.webp` | [macbook-pro-m3](https://pcpalace.com.sa/en/products/Apple-MacBook-Pro-MXE03AB-A) |
+| `products/dell-xps-13.webp` | [dell-xps-13](https://laptopk1.vn/laptop-dell-xps-13-9340-intel-core-ultra-7-155h-13-4-inch-fhd-ips-120hz) |
+| `products/asus-zenbook-14.webp` | [asus-zenbook-14](https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/) |
+| `products/acer-aspire-5.webp` | [acer-aspire-5](https://www.moglix.com/acer-aspire-5-steel-grey-laptop-with-16gb-512gb-ssd-intel-iris-xe-graphics-windows-11-home-156-inch-fhd-ips-display-a515-57/mp/msn153vd6xyyk3?srsltid=AfmBOorV7tx-5S0m4wh2uqH3xUSLSMVBPT4rQOfL4er3RRKAiFgzqiNL) |
+| `products/hp-envy-x360.webp` | [hp-envy-x360](https://www.ubuy.com.gh/product/4XQX33GTW-2022-newest-hp-envy-x360-2-in-1-laptop-15-6-34-full-hd-touchscreen-amd-ryzen-7-5700u-octa-core-processor-64gb-ddr4-ram-1tb-pcie-ssd-backlit) |
+| `products/lenovo-legion-5.webp` | [lenovo-legion-5](https://gearvn.com/products/laptop-gaming-lenovo-legion-5-16irx9-83dg004yvn) |
+| `products/msi-katana-15.webp` | [msi-katana-15](https://hiraoka.com.pe/laptop-gamer-msi-de-15-6-modelo-katana-15-b13vek-tarjeta-grafica-geforce-rtx-4050-procesador-intel-core-i7-13620h-13-generacion-16gb-ram-disco-solido-de-512gb-camara-web-720p-hd-entrada-usb-hdmi-y-tipo-c-bluetooth-v5-2-wifi-6) |
+| `products/mac-mini-m2.webp` | [mac-mini-m2](https://www.mrfix.ua/ua/apple-mac-mini-2023-mmfk3/) |
+| `products/imac-m3.webp` | [imac-m3](https://www.ldlc.com/es-es/ficha/PB00591534.html) |
+| `products/hp-omen-25l.webp` | [hp-omen-25l](https://www.pccomponentes.com/hp-omen-25l-gt15-1094ns-intel-core-i7-13700f-16gb-1tb-ssd-rtx-4060) |
+| `products/lenovo-legion-t5.webp` | [lenovo-legion-t5](https://uae.microless.com/product/lenovo-legion-t5-26irb8-desktop-computer-intel-core-i7-13700f-16gb-2x8-ddr5-ram-512gb-ssd-geforce-rtx-4070-gddr6x-12gb-gpu-usb-calliope-eng-k-b-mouse-windows-11-pro-storm-grey-90ut000pus/) |
+| `products/acer-nitro-n50.webp` | [acer-nitro-n50](https://www.comparez-malin.fr/informatique/ordinateur-de-bureau/acer-nitro-n50-650-7492847.html) |
+| `products/msi-codex-r.webp` | [msi-codex-r](https://www.newegg.com/msi-gaming-desktop-geforce-rtx-4060-intel-core-i5-13400f-16gb-ddr5-1tb-pcie-ssd-codex-r-13nuc5-080us-black/p/N82E16883151498) |
+| `products/dell-optiplex-7010.webp` | [dell-optiplex-7010](https://mediamart.vn/may-tinh-de-ban/pc-dell-optiplex-7010-tower-71038111-i5-13500-8gb-512gb-ssd-win11-wifi-ac-1yw) |
+| `products/asus-expertcenter-d5.webp` | [asus-expertcenter-d5](https://www.asus.com/lk/displays-desktops/tower-pcs/expertcenter/asus-expertcenter-d5-tower-d500tc/) |

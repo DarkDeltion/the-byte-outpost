@@ -24,7 +24,7 @@
     "price": 1499,
     "category": "Laptops",
     "brand": "Lenovo",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/lenovo-thinkpad.webp"
   },
   {
     "id": "hp-pavilion",
@@ -33,7 +33,7 @@
     "price": 699,
     "category": "Laptops",
     "brand": "HP",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/hp-pavilion.webp"
   },
   {
     "id": "asus-rog-ally",
@@ -42,7 +42,7 @@
     "price": 649,
     "category": "Computers",
     "brand": "ASUS",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/asus-rog-ally.webp"
   },
   {
     "id": "mac-studio-m2",
@@ -51,7 +51,7 @@
     "price": 2449,
     "category": "Computers",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/mac-studio-m2.webp"
   },
   {
     "id": "samsung-s24-ultra",
@@ -69,7 +69,7 @@
     "price": 449,
     "category": "Laptops",
     "brand": "Lenovo",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/lenovo-ideapad.webp"
   },
   {
     "id": "iphone-15",
@@ -222,7 +222,7 @@
     "price": 1299,
     "category": "Laptops",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/macbook-air-m3.webp"
   },
   {
     "id": "macbook-pro-m3",
@@ -231,7 +231,7 @@
     "price": 1999,
     "category": "Laptops",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/macbook-pro-m3.webp"
   },
   {
     "id": "dell-xps-13",
@@ -240,7 +240,7 @@
     "price": 1599,
     "category": "Laptops",
     "brand": "Dell",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/dell-xps-13.webp"
   },
   {
     "id": "asus-zenbook-14",
@@ -249,7 +249,7 @@
     "price": 999,
     "category": "Laptops",
     "brand": "ASUS",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/asus-zenbook-14.webp"
   },
   {
     "id": "acer-aspire-5",
@@ -258,7 +258,7 @@
     "price": 649,
     "category": "Laptops",
     "brand": "Acer",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/acer-aspire-5.webp"
   },
   {
     "id": "hp-envy-x360",
@@ -267,7 +267,7 @@
     "price": 1099,
     "category": "Laptops",
     "brand": "HP",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/hp-envy-x360.webp"
   },
   {
     "id": "lenovo-legion-5",
@@ -276,7 +276,7 @@
     "price": 1399,
     "category": "Laptops",
     "brand": "Lenovo",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/lenovo-legion-5.webp"
   },
   {
     "id": "msi-katana-15",
@@ -285,7 +285,7 @@
     "price": 1049,
     "category": "Laptops",
     "brand": "MSI",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/msi-katana-15.webp"
   },
   {
     "id": "mac-mini-m2",
@@ -294,7 +294,7 @@
     "price": 699,
     "category": "Computers",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/mac-mini-m2.webp"
   },
   {
     "id": "imac-m3",
@@ -303,7 +303,7 @@
     "price": 1799,
     "category": "Computers",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/imac-m3.webp"
   },
   {
     "id": "hp-omen-25l",
@@ -312,7 +312,7 @@
     "price": 1299,
     "category": "Computers",
     "brand": "HP",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/hp-omen-25l.webp"
   },
   {
     "id": "lenovo-legion-t5",
@@ -321,7 +321,7 @@
     "price": 1699,
     "category": "Computers",
     "brand": "Lenovo",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/lenovo-legion-t5.webp"
   },
   {
     "id": "acer-nitro-n50",
@@ -330,7 +330,7 @@
     "price": 999,
     "category": "Computers",
     "brand": "Acer",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/acer-nitro-n50.webp"
   },
   {
     "id": "msi-codex-r",
@@ -339,7 +339,7 @@
     "price": 1149,
     "category": "Computers",
     "brand": "MSI",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/msi-codex-r.webp"
   },
   {
     "id": "dell-optiplex-7010",
@@ -348,7 +348,7 @@
     "price": 749,
     "category": "Computers",
     "brand": "Dell",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/dell-optiplex-7010.webp"
   },
   {
     "id": "asus-expertcenter-d5",
@@ -357,6 +357,6 @@
     "price": 599,
     "category": "Computers",
     "brand": "ASUS",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/asus-expertcenter-d5.webp"
   }
 ]
