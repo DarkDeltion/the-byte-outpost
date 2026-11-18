@@ -14,7 +14,7 @@ type NavbarProps = {
 export default function Navbar({
   activePage = 'home',
   brandName = 'The Byte Outpost',
-  logoSrc = '/Placeholder/24x24.webp',
+  logoSrc = '/images/brand/byte-outpost.webp',
   cartIcon = '/images/icons/shopping-cart.webp',
 }: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -51,7 +51,7 @@ export default function Navbar({
               width={24}
               height={24}
               className="
-              mr-2 h-5 w-5
+              mr-2 h-5 w-5 shrink-0 object-contain
               sm:h-5 sm:w-5
               md:h-6 md:w-6
               lg:h-6 lg:w-6

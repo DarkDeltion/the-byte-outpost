@@ -18,7 +18,6 @@ export default function OverOns() {
       <Navbar
         activePage="over-ons"
         brandName="the byte outpost"
-        logoSrc={null}
       />
 
       <main id="Content" className="w-full">
