@@ -196,7 +196,7 @@ export default function Home() {
               products_name='iPad Pro 13"'
               product_details="Apple M4 chip · Ultra Retina XDR"
               product_price="€1.199"
-              product_image="/images/products/ipad-pro-m4.webp"
+              product_image="/images/products/ipad-pro-m4-white.webp"
             />
 
             <UitgelichtItem

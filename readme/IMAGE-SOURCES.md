@@ -32,6 +32,8 @@ De foto's zijn per productmodel geselecteerd. De opgegeven telefoonkleur komt ov
 
 Productfoto's blijven eigendom van de betreffende merken en bronhouders.
 
+De zichtbare grijze en crèmekleurige achtergronden van de iPad Pro M4 en Pixel 8 zijn vervangen door wit met de ingebouwde image_gen-tool. De oorspronkelijke foto's zijn bewaard; de website gebruikt de varianten met `-white.webp`. Prompts en bestanden staan in [WHITE-BACKGROUND-EDITS.md](WHITE-BACKGROUND-EDITS.md). De achtergrond van alle productafbeeldingselementen en hun kaartvakken is wit, zodat transparante afbeeldingen hetzelfde aansluiten.
+
 ### Telefoons en tablets
 
 | Lokaal bestand | Bron en model |
@@ -43,12 +45,12 @@ Productfoto's blijven eigendom van de betreffende merken en bronhouders.
 | `products/iphone-14.webp` | [iphone-14](https://www.ldlc.com/fiche/PB00516133.html?offerId=AR202209080106) |
 | `products/samsung-galaxy-s24.webp` | [samsung-galaxy-s24](https://www.staples.com/samsung-galaxy-s24-5g-lte-unlocked-cell-phone-128gb-onyx-black-sm-s921uzkaxaa/product_IM1JN6774) |
 | `products/samsung-galaxy-a55.webp` | [samsung-galaxy-a55](https://www.tesco.com/phones/products/08806095467061) |
-| `products/google-pixel-8.webp` | [google-pixel-8](https://www.walmart.com/ip/5218901134) |
+| `products/google-pixel-8-white.webp` | [google-pixel-8](https://www.walmart.com/ip/5218901134) |
 | `products/oneplus-12.webp` | [oneplus-12](https://www.shopabunda.com/products/oneplus-12-12gb-ram-256gb-dual-sim-unlocked-android-smartphone-supports-fastest-50w-wireless-charging-with-the-latest-mobile-processor-advanced-hasselblad-camera-5400-mah-battery-2024-silky-black) |
 | `products/xiaomi-14.webp` | [xiaomi-14](https://www.public.gr/product/tilefonia/kinita-smartphones/xiaomi-14-512gb--black/1906635) |
 | `products/nothing-phone-2a.webp` | [nothing-phone-2a](https://www.trikart.com/kwt_en/nothing-phone-2a-8gb-ram-128gb-memory-black.html) |
 | `products/ipad-air-m2.webp` | [ipad-air-m2](https://www.comparez-malin.fr/informatique/tablette/apple-ipad-air-11-2024-lumiere-stellaire-128-go-wi-fi.html) |
-| `products/ipad-pro-m4.webp` | [ipad-pro-m4](https://maconline.vn/ipad-pro-m4-13-inch-wifi-256gb-new) |
+| `products/ipad-pro-m4-white.webp` | [ipad-pro-m4](https://maconline.vn/ipad-pro-m4-13-inch-wifi-256gb-new) |
 | `products/ipad-mini-6.webp` | [ipad-mini-6](https://theapplewiki.com/wiki/IPad_mini_%286th_generation%29) |
 | `products/galaxy-tab-s9-fe.webp` | [galaxy-tab-s9-fe](https://www.harveynorman.co.uk/products/samsung-galaxy-tab-s9-fe-10-9-wi-fi-6gb-128gb-green-clone?srsltid=AfmBOoryyAOQDt3HE_IkTzRWf75B-rzksV6vOgbjehiqBmcilSGlqe-8) |
 | `products/galaxy-tab-a9-plus.webp` | [galaxy-tab-a9-plus](https://shop.samsung.com/latin/cac/honduras_benefits/galaxy-tab-a9-plus-5g-64gb.html) |
