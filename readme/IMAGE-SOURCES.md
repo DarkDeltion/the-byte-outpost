@@ -16,9 +16,15 @@ Voor de portretten geldt de [Unsplash-licentie](https://unsplash.com/license).
 
 ## Pictogrammen
 
-`truck.webp`, `shield-check.webp`, `headset.webp` en `shopping-cart.webp` zijn WebP-versies van [Lucide Icons](https://github.com/lucide-icons/lucide/tree/main/icons). De voordeeliconen gebruiken de bestaande accentkleur; de winkelwagen is wit. De logo's zijn niet aangepast.
+`truck.webp`, `shield-check.webp`, `headset.webp` en `shopping-cart.webp` zijn WebP-versies van [Lucide Icons](https://github.com/lucide-icons/lucide/tree/main/icons). De voordeeliconen gebruiken de bestaande accentkleur; de winkelwagen is wit.
 
 De volledige Lucide-licentie staat in [LICENSE-lucide.txt](LICENSE-lucide.txt).
+
+## Eigen logo
+
+`brand/byte-outpost.webp` is een origineel beeldmerk voor The Byte Outpost: een hoekige B met een klein signaalpixel op een paars vlak. De kleuren `#5e6ad2`, `#a1a5ff` en wit sluiten aan op de website. Het ontwerp gebruikt een raster van 24 bij 24 zodat het leesbaar blijft op het kleine formaat in de navigatie.
+
+De bewerkbare vectorbron staat in [byte-outpost-logo.svg](../design/byte-outpost-logo.svg). De website gebruikt een lossless WebP-export van 384 bij 384 pixels.
 
 ## Productfoto's
 
