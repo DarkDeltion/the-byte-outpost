@@ -6,7 +6,7 @@
     "price": 1129,
     "category": "Telefoons",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/iphone-15-pro.webp"
   },
   {
     "id": "galaxy-tab-s9",
@@ -15,7 +15,7 @@
     "price": 799,
     "category": "Tablets",
     "brand": "Samsung",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/galaxy-tab-s9.webp"
   },
   {
     "id": "lenovo-thinkpad",
@@ -60,7 +60,7 @@
     "price": 1249,
     "category": "Telefoons",
     "brand": "Samsung",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/samsung-s24-ultra.webp"
   },
   {
     "id": "lenovo-ideapad",
@@ -78,7 +78,7 @@
     "price": 849,
     "category": "Telefoons",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/iphone-15.webp"
   },
   {
     "id": "iphone-14",
@@ -87,7 +87,7 @@
     "price": 699,
     "category": "Telefoons",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/iphone-14.webp"
   },
   {
     "id": "samsung-galaxy-s24",
@@ -96,7 +96,7 @@
     "price": 799,
     "category": "Telefoons",
     "brand": "Samsung",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/samsung-galaxy-s24.webp"
   },
   {
     "id": "samsung-galaxy-a55",
@@ -105,7 +105,7 @@
     "price": 399,
     "category": "Telefoons",
     "brand": "Samsung",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/samsung-galaxy-a55.webp"
   },
   {
     "id": "google-pixel-8",
@@ -114,7 +114,7 @@
     "price": 599,
     "category": "Telefoons",
     "brand": "Google",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/google-pixel-8.webp"
   },
   {
     "id": "oneplus-12",
@@ -123,7 +123,7 @@
     "price": 899,
     "category": "Telefoons",
     "brand": "OnePlus",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/oneplus-12.webp"
   },
   {
     "id": "xiaomi-14",
@@ -132,7 +132,7 @@
     "price": 849,
     "category": "Telefoons",
     "brand": "Xiaomi",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/xiaomi-14.webp"
   },
   {
     "id": "nothing-phone-2a",
@@ -141,7 +141,7 @@
     "price": 329,
     "category": "Telefoons",
     "brand": "Nothing",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/nothing-phone-2a.webp"
   },
   {
     "id": "ipad-air-m2",
@@ -150,7 +150,7 @@
     "price": 719,
     "category": "Tablets",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/ipad-air-m2.webp"
   },
   {
     "id": "ipad-pro-m4",
@@ -159,7 +159,7 @@
     "price": 1569,
     "category": "Tablets",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/ipad-pro-m4.webp"
   },
   {
     "id": "ipad-mini-6",
@@ -168,7 +168,7 @@
     "price": 549,
     "category": "Tablets",
     "brand": "Apple",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/ipad-mini-6.webp"
   },
   {
     "id": "galaxy-tab-s9-fe",
@@ -177,7 +177,7 @@
     "price": 449,
     "category": "Tablets",
     "brand": "Samsung",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/galaxy-tab-s9-fe.webp"
   },
   {
     "id": "galaxy-tab-a9-plus",
@@ -186,7 +186,7 @@
     "price": 219,
     "category": "Tablets",
     "brand": "Samsung",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/galaxy-tab-a9-plus.webp"
   },
   {
     "id": "lenovo-tab-p12",
@@ -195,7 +195,7 @@
     "price": 349,
     "category": "Tablets",
     "brand": "Lenovo",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/lenovo-tab-p12.webp"
   },
   {
     "id": "xiaomi-pad-6",
@@ -204,7 +204,7 @@
     "price": 299,
     "category": "Tablets",
     "brand": "Xiaomi",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/xiaomi-pad-6.webp"
   },
   {
     "id": "oneplus-pad",
@@ -213,7 +213,7 @@
     "price": 479,
     "category": "Tablets",
     "brand": "OnePlus",
-    "image": "/Placeholder/285x285.webp"
+    "image": "/images/products/oneplus-pad.webp"
   },
   {
     "id": "macbook-air-m3",
