@@ -15,7 +15,7 @@ export default function Navbar({
   activePage = 'home',
   brandName = 'The Byte Outpost',
   logoSrc = '/Placeholder/24x24.webp',
-  cartIcon = '/Placeholder/24x24.webp',
+  cartIcon = '/images/icons/shopping-cart.webp',
 }: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false)
 

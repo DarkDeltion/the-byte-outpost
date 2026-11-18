@@ -1,9 +1,12 @@
+import Image from 'next/image'
+
 type ValueItemProps = {
   title: string
   description: string
+  image: string
 }
 
-export default function ValueItem({ title, description }: ValueItemProps) {
+export default function ValueItem({ title, description, image }: ValueItemProps) {
   return (
     <article
       className="
@@ -11,7 +14,13 @@ export default function ValueItem({ title, description }: ValueItemProps) {
       lg:p-6
       "
     >
-      <div aria-hidden="true" className="h-10 w-10 shrink-0 bg-[#121218]" />
+      <Image
+        src={image}
+        alt=""
+        width={40}
+        height={40}
+        className="h-10 w-10 shrink-0 object-contain"
+      />
 
       <h3 className="text-[18px] font-bold text-white">
         {title}

@@ -19,7 +19,6 @@ export default function OverOns() {
         activePage="over-ons"
         brandName="the byte outpost"
         logoSrc={null}
-        cartIcon="/over-ons/shopping-cart.svg"
       />
 
       <main id="Content" className="w-full">
@@ -95,16 +94,19 @@ export default function OverOns() {
             <ValueItem
               title="Gratis Verzending"
               description="Voor alle bestellingen boven de €50."
+              image="/images/icons/truck.webp"
             />
 
             <ValueItem
               title="2 Jaar Garantie"
               description="Standaard garantie op het gehele assortiment."
+              image="/images/icons/shield-check.webp"
             />
 
             <ValueItem
               title="Klantenservice"
               description="Antwoord binnen 24 uur op al uw vragen."
+              image="/images/icons/headset.webp"
             />
           </div>
         </section>
@@ -129,9 +131,21 @@ export default function OverOns() {
           </h2>
 
           <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-3 lg:gap-5">
-            <TeamItem name="Johan Bakker" role="Oprichter" />
-            <TeamItem name="Lieke de Jong" role="Klantenservice" />
-            <TeamItem name="Mark van Dijk" role="Technisch Adviseur" />
+            <TeamItem
+              name="Johan Bakker"
+              role="Oprichter"
+              image="/images/team/johan-bakker.webp"
+            />
+            <TeamItem
+              name="Lieke de Jong"
+              role="Klantenservice"
+              image="/images/team/lieke-de-jong.webp"
+            />
+            <TeamItem
+              name="Mark van Dijk"
+              role="Technisch Adviseur"
+              image="/images/team/mark-van-dijk.webp"
+            />
           </div>
         </section>
       </main>
