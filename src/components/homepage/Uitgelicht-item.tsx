@@ -36,7 +36,7 @@ export default function UitgelichtItem({
           alt={products_name}
           fill
           sizes="(max-width: 767px) 100vw, 25vw"
-          className="object-contain p-4"
+          className="bg-white object-contain p-4"
         />
       </div>
 

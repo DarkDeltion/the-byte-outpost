@@ -35,7 +35,7 @@ export default function ProductItem({
           alt={name}
           fill
           sizes="(max-width: 639px) 100vw, (max-width: 767px) 50vw, (max-width: 1023px) 35vw, (max-width: 1439px) 20vw, 240px"
-          className="object-contain p-3"
+          className="bg-white object-contain p-3"
         />
       </div>
 
